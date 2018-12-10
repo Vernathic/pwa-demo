@@ -2,6 +2,7 @@
   <div class="left-fill">
     <button mat-button [matMenuTriggerFor]="menu">Menu</button>
     <mat-menu #menu="matMenu">
+      <!-- TODO: Add link to recipeList-->
       <button mat-menu-item>Recipes</button>
       <button mat-menu-item>Item 2</button>
     </mat-menu>
@@ -9,4 +10,5 @@
   <button mat-button>Search</button>
 </mat-toolbar>
 
+<app-recipe-list></app-recipe-list>
 <router-outlet></router-outlet>
