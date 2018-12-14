@@ -9,12 +9,16 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './recipe-list/recipe-item/recipe-item.component';
+import { SlidesComponent } from './about/slides.component';
+import { NotFoundComponent } from './about/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeListComponent,
-    RecipeItemComponent
+    RecipeItemComponent,
+    SlidesComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
