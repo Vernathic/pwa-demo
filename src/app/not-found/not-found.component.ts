@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
                   Page not found (404).
                 </mat-card-title>
                 Go back to
-                <a routerLink='/slides'>
-                  the slides
-                </a>
+                <a routerLink='/recipes'>
+                  the recipes
+                </a>.
               </mat-card>`,
 })
 export class NotFoundComponent implements OnInit {

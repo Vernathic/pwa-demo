@@ -1,14 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SlidesComponent } from './slides/slides.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
 const routes: Routes = [
-  {path: 'slides', component: SlidesComponent},
   {path: 'recipes', component: RecipeListComponent},
   { path: '',
-    redirectTo: '/slides',
+    redirectTo: '/recipes',
     pathMatch: 'full'
   },
   { path: '**', component: NotFoundComponent }
