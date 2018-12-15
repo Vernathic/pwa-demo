@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SlidesComponent } from './about/slides.component';
-import { NotFoundComponent } from './about/not-found/not-found.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
 const routes: Routes = [

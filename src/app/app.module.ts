@@ -43,10 +43,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './recipe-list/recipe-item/recipe-item.component';
-import { SlidesComponent } from './about/slides.component';
-import { NotFoundComponent } from './about/not-found/not-found.component';
+import { RecipeListComponent } from './recipe-list/recipe-list.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { SlidesComponent } from './slides/slides.component';
+import { AboutMeComponent } from './slides/about-me/about-me.component';
+import { TechnologiesComponent } from './slides/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { NotFoundComponent } from './about/not-found/not-found.component';
     RecipeListComponent,
     RecipeItemComponent,
     SlidesComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AboutMeComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule,

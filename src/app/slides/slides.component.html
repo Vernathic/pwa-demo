@@ -4,6 +4,10 @@
     <app-about-me></app-about-me>
   </mat-step>
 
+  <mat-step [stepControl]="secondFormGroup">
+    <ng-template matStepLabel>Technologies</ng-template>
+    <app-technologies></app-technologies>
+  </mat-step>
 </mat-vertical-stepper>
 
 <!--<mat-accordion>-->
