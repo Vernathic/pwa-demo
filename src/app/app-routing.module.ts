@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SlidesComponent } from './about/slides.component';
+import { SlidesComponent } from './slides/slides.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
