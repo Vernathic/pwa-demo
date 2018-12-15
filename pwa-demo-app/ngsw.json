@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "index": "https://vernathic.github.io/pwa-demo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vernathic.github.io/pwa-demo/favicon.ico",
+        "https://vernathic.github.io/pwa-demo/index.html",
+        "https://vernathic.github.io/pwa-demo/main.db756f3fdd9ced0c230e.js",
+        "https://vernathic.github.io/pwa-demo/polyfills.20ab2d163684112c2aba.js",
+        "https://vernathic.github.io/pwa-demo/runtime.ec2944dd8b20ec099bf3.js",
+        "https://vernathic.github.io/pwa-demo/styles.910b3c811bdf4b85dcf1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-128x128.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-144x144.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-152x152.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-192x192.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-384x384.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-512x512.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-72x72.png",
+        "https://vernathic.github.io/pwa-demo/assets/icons/icon-96x96.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/1.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/2.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/3.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/4.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/5.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/cpp.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/euvic.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/java.logo.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/kotlin.logo.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/logotyp-politechnika-opolska-03.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/net.logo.jpg",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/obj.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/objc.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/swift.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/vamk-logo.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/volvo.png",
+        "https://vernathic.github.io/pwa-demo/assets/imgs/zs1.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-128x128.png": "fc00761c1c39f18883f143d85be8d1cbb70c2523",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-144x144.png": "94e58096f752495c0a3e820a4d7948e7d51076dc",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-152x152.png": "2fb972822c121132fa513c58fa877d4a2259168e",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-192x192.png": "9cb01bb402deac738dea165f19054196f47d3079",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-384x384.png": "7e7142b5a0794c44d2cd21d973f76ffb325badf0",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-512x512.png": "5670b0ddcb796a72d24d9a3d560446d0789e5204",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-72x72.png": "b8d6fed99f98144fc1229cf468d00fd39dcfa8d8",
+    "https://vernathic.github.io/pwa-demo/assets/icons/icon-96x96.png": "43cccab7a8faacd602b44e955436d042de95b5e6",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/1.jpg": "01b16fb49d9673bc99681dba9b4668c713e4c74b",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/2.jpg": "18d16e07ff2627007ded213cc2dabc1b98c9c0ff",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/3.jpg": "50b08f5662c9d12aeb20a25b85d7990f596f36a0",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/4.jpg": "9c2a74c34f7e7207fef67606bc946de297a3f18a",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/5.png": "01ed769cb62f9f5dcb129f57fba4eda855dadac6",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/cpp.jpg": "d96a10d4d19bfb7c221d1362d71580f6225d0135",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/euvic.png": "b78e0c2b2bea99cad4eb257c7f849fc9c2af4101",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/java.logo.png": "2c029916593bf291edc536870692a817775d20c5",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/kotlin.logo.png": "3d4fc2d4782758a16d3c6aa2f57900d6b434c602",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/logotyp-politechnika-opolska-03.jpg": "9f1765411d1501ed38f41050b60216aa672d59c6",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/net.logo.jpg": "7782e0d1d39a31e00a72782a417d259bb826cc94",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/obj.png": "b1ee1b12155c59e9f1f878f45cb0dee1336f0105",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/objc.png": "d1c712a2cdd542966c341ba44cf3737f573957a5",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/swift.png": "9ac992ce7c191a47ddea9221c55f2123b4ffe941",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/vamk-logo.png": "f03f005227b922b619c16fda465727ab02a0fca0",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/volvo.png": "e715f15239784d1f76f0701e6a70d19d0d66bc51",
+    "https://vernathic.github.io/pwa-demo/assets/imgs/zs1.png": "8053a5f83cc67029be9dbd2e142fbb38d5c22410",
+    "https://vernathic.github.io/pwa-demo/favicon.ico": "3e925b62b5008323b239b6a8d624627fcf4da81a",
+    "https://vernathic.github.io/pwa-demo/index.html": "3191cce533eb8cfbff8e5bdacf08368e243e3da9",
+    "https://vernathic.github.io/pwa-demo/main.db756f3fdd9ced0c230e.js": "fbf67ff1df6e2d5179553827b7fc1c779548c74d",
+    "https://vernathic.github.io/pwa-demo/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "https://vernathic.github.io/pwa-demo/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://vernathic.github.io/pwa-demo/styles.910b3c811bdf4b85dcf1.css": "70f1211beb711b5d545ec74e715852704df5c812"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
