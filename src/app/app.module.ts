@@ -63,7 +63,7 @@ import { TechnologiesComponent } from './slides/technologies/technologies.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('service-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     MatAutocompleteModule,
     MatBadgeModule,

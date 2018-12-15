@@ -4,7 +4,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
 const routes: Routes = [
-  {path: 'recipes', component: RecipeListComponent},
+  {path: '/recipes', component: RecipeListComponent},
   { path: '',
     redirectTo: '/recipes',
     pathMatch: 'full'

@@ -1,4 +1,14 @@
 .mat-card{
-  width: 45%;
+  width: 10em;
   float: left;
+  margin: 0.2em;
+}
+
+.mat-card-header {
+  min-height: 3em;
+}
+
+.mat-card-image {
+  height: 10em;
+  width: 12em;
 }

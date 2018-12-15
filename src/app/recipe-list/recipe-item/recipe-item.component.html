@@ -1,10 +1,8 @@
-<mat-card class="recipe-item">
+<mat-card>
   <mat-card-header> {{item.title}} </mat-card-header>
-  <img mat-card-image src="{{item.imageUrls[0]}}" alt="Photo of {{item.title}}">
+    <img mat-card-image src="{{item.imageUrls[0]}}" alt="Photo of {{item.title}}">
   <mat-card-content>
     <p> Servings: {{item.servings}} </p>
     <p> Ready in: {{item.readyInMinutes}} </p>
   </mat-card-content>
 </mat-card>
-
-<!--https://stackblitz.com/angular/jngmeadqxav?file=app%2Fcard-fancy-example.html-->
